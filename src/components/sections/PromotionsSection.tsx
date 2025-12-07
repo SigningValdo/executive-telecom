@@ -63,7 +63,7 @@ const promotions = [
 
 export default function PromotionsSection() {
   return (
-    <section className="pt-9 xl:pt-0 xl:py-20 bg-white">
+    <section className="pt-5 xl:py-20 bg-white">
       <div className=" px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="Promotions et Evènements à ne pas manquer"
@@ -71,7 +71,7 @@ export default function PromotionsSection() {
         />
 
         {/* Featured Event */}
-        <div className="mb-16 container mx-auto">
+        <div className="mb-16 container mx-auto px-4">
           <div className="grid gap-8 items-center">
             <div className="relative h-[280px] md:h-[700px] xl:h-[984px] rounded-2xl overflow-hidden">
               <Image
@@ -111,7 +111,7 @@ export default function PromotionsSection() {
           </div>
         </div>
 
-        <div className="hidden lggrid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="hidden lg:grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {promotions.map((promo, index) => (
             <PromotionCard key={index} {...promo} />
           ))}

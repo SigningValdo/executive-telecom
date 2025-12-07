@@ -110,7 +110,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#FAFAFB]">
       <div className="container mx-auto border-t border-[#E4E4E7] px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid md:grid-cols-2 grid-cols-4 xl:grid-cols-5 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-8">
           {/* Logo & Description */}
           <div className="xl:col-span-2 grid xl:grid-cols-2">
             <div>

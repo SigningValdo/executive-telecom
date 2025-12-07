@@ -16,18 +16,18 @@ export default function CTASection() {
                 <h2 className="text-2xl md:text-3xl lg:text-[45px] font-bold text-white">
                   Pret à profiter des meilleurs divertissements ?
                 </h2>
-                <div className="xl:hidden flex gap-4 mt-3">
+                <div className="xl:hidden flex  gap-4 mt-3">
                   <Button
                     variant="secondary"
                     size="md"
-                    className="bg-white !text-primary !rounded-full h-max w-full hover:bg-white/90"
+                    className="bg-white !text-primary !rounded-full h-max sm:w-full hover:bg-white/90"
                   >
                     Découvrez nos offres
                   </Button>
                   <Button
                     variant="outline"
                     size="md"
-                    className="border-white text-white !rounded-full h-max w-full hover:bg-white/10"
+                    className="border-white text-white !rounded-full h-max sm:w-full hover:bg-white/10"
                   >
                     Contactez-Nous
                   </Button>
