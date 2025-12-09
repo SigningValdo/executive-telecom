@@ -17,7 +17,8 @@ export default function Button({
     "font-bold rounded-[15px] transition-all duration-300 cursor-pointer";
 
   const variants = {
-    primary: "bg-primary text-white hover:bg-primary-dark",
+    primary:
+      "bg-primary text-white hover:text-primary hover:bg-transparent transition-colors border border-primary",
     secondary: "bg-secondary text-white hover:bg-secondary/90",
     outline: "border-2 border-white text-white hover:bg-white/10",
   };
